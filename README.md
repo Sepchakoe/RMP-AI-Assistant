@@ -1,8 +1,47 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+
 ## Getting Started
 
-First, run the development server:
+Install Conda evnironment: 
+
+```bash
+conda create -n rag python=3.10.4
+```
+
+
+
+First, install the dependencies (node_modules): 
+
+```bash
+npm install
+```
+
+Activate rag:
+
+```bash
+conda activate rag
+```
+
+install open AI
+```bash
+pip install openai
+```
+
+install pinecone client:
+
+```bash
+pip install "pinecone-client[grpc]"
+```
+
+Installing additional dependencies:
+
+```bash
+npm install @mui/material @emotion/react @emotion/styled @pinecone-database/pinecone @vercel/analytics openai
+```
+
+Run the development server:
 
 ```bash
 npm run dev
